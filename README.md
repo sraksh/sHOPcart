@@ -4,4 +4,4 @@ npm  install
 
 npm start
 
-to run the app# sHOPcart
+to run the app
