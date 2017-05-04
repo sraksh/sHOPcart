@@ -1,21 +1,11 @@
 import React from 'react';
 
 class Product extends React.Component {
-  constructor(props) {
-    super(props);
-    this.addProduct = this.addProduct.bind(this);
-    this.removeProduct = this.removeProduct.bind(this);
-  }
+constructor(props) {
+  super(props);
+}
 
-  addProduct() {
-    this.props.addToCart(this.props.id);
-  }
-
-  removeProduct() {
-    this.props.removeFromCart(this.props.id);
-  }
-
-  render() {
+render() {
     return (
       <li>
         <div className="thumbnail">
